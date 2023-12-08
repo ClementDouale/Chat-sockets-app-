@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+#chat
+{
+    display: flex;
+    min-height: 78%;
+}
+
+
+body {
+    text-align: center;
+    height: 100%;
+  }
+
+
+
+.Element1{
+     border:1px solid black;
+     border-radius: 30px;
+     padding:3px;
+     background-color: #6495ED;
+}
+
+.Element2{
+     border:1px solid black;
+     border-radius: 30px;
+     padding:3px;
+     flex : 1;
+
+}
+
+.Element3{
+    border:1px solid black;
+    border-radius: 30px;
+    padding:3px;
+    background-color: #6495ED;
+}
+.login-container > form{
+    height: 100px;
+    width: 200px;
+    float: right;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.login-container > form > label, .login-container > form > button{
+    display: block;
+     border:0px solid black;
+    box-shadow:2px 2px 2px #6495ED;
+    float: right;
+    background-color: #6495ED;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 1px;
+
+}
+
+header, footer{
+    height: 5%;
+    background-color: #184e5b;
+    color: #fff;
+}
+
+nav{
+    height: 8%;
+    background-color: #7da7ad;
+}
+
+.content{
+    display: flex;
+    height: 82%;
+    width: 100%;
+}
+
+aside{
+    width: 20%;
+}
+
+main{
+    width: 80%;
+}
